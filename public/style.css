@@ -1,0 +1,419 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mainColor: rgb(3, 0, 165);
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    z-index: -1;
+}
+
+hr {
+    border-top: 2px solid var(--mainColor)
+}
+
+.scroll-fix::before {
+    display: block;
+    margin-top: -2rem;
+    height: 5rem;
+    content: '';
+}
+
+/* Nawigacja */
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--mainColor);
+}
+
+nav .navbar-nav, nav .fa-bars {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+nav .fa-bars {
+    padding: 1rem 2rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.nav-logo {
+    height: 3rem;
+}
+
+/* Header */
+header {
+    position: relative;
+    height: 60rem;
+    background-image: url("./img/justice-2060093_1280.jpg");
+    /* background-position: center; */
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+header .btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.header-title {
+    font-size: 2.8rem;
+}
+.header-text {
+    font-size: 2.6rem;
+}
+
+.navbar-links a {
+    font-size: 2.2rem;
+}
+
+/* Home */
+.home-boxes {
+    padding: 5em 0 1em 0;
+}
+
+.home-box i {
+    font-size: 4rem;
+    color: var(--mainColor);
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    /* color: var(--mainColor); */
+}
+
+/* Services */
+.service-hero-box {
+    position: relative;
+    height: 150px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.service-hero-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.service-pricing .card-header {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.service-pricing h3 {
+    font-weight: bold;
+}
+
+.service-pricing .btn {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.additional-text {
+    font-size: 2rem;
+    padding: 0 1em;
+}
+
+/* .services-title {
+    font-size: 3.7rem;
+} */
+
+/* Additional info */
+.home-passion {
+    position: relative;
+    height: 400px;
+    background-image: url("./img/judge-3665164_640.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+.home-passion p {
+    text-transform: uppercase;
+    font-size: 3rem;
+    /* font-weight: bold; */
+}
+
+.home-passion .contact-btn {
+    font-size: 1.5rem;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+/* About Me */
+.home-brand h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* .aboutme-title {
+    font-size: 4rem;
+} */
+
+.aboutme-info {
+    text-align: center;
+}
+
+.aboutme-image {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(43, 43, 43);
+    max-height: 500px;
+    /* margin-left: 1em; */
+}
+
+/* Contact */
+.contact {
+    background-color: rgb(235, 235, 235);
+}
+
+.contact h2, .contact h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.contact h2 {
+    font-size: 2.6rem;
+}
+
+.contact-logo {
+    font-size: 2.8rem;
+}
+
+.contact input, .contact select, .contact textarea {
+    font-size: 1.6rem;
+}
+
+.contact textarea {
+    max-height: 300px;
+    min-height: 50px;
+}
+
+.contact .btn {
+    padding: 0.3em .8em;
+    font-size: 2rem;
+    border-radius: 8px;
+    /* background-color: var(--mainColor) */
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
+/* Footer */
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+
+  .footer .wrapper {
+    padding: 4em 2em 2em;
+  }
+
+  .footer__box {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .footer__box-desktop {
+    display: none;
+  }
+
+  .footer__box-title {
+    margin-bottom: 1em;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .footer__box-social {
+    margin: 2em 0 1em;
+  }
+
+  .footer__box-link {
+    padding: 0 .3em;
+    font-size: 3rem;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+  }
+
+  .footer__box-link:first-child {
+    padding-left: 0;
+  }
+
+  .footer__box-link:hover {
+    color: #1755e7;
+  }
+
+  .footer__bottom-text {
+    padding: 1.2em;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+
+.logo__info {
+    font-size: 1.4rem;
+}
+
+.logo__info a:link {
+    color: white;
+    text-decoration: none;
+}
+.logo__info a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+@media(min-width: 768px) {
+    header {
+        height: 70rem;
+        background-image: url("./img/justice-2060093_1280.jpg");
+    }
+    .header-title {
+        font-size: 3.5rem;
+    }
+    .header-text {
+        font-size: 3.3rem;
+    }
+
+    .additional-text {
+        font-size: 2.5rem;
+    }
+
+    .services-title {
+        font-size: 4rem;
+    }
+
+    .home-passion {
+        background-image: url("./img/judge-3665164_1280.jpg");
+    }
+
+    .aboutme-info {
+        text-align: start;
+    }
+
+    .footer__boxes{
+            display: flex;
+            justify-content: space-evenly;
+    }
+
+    .footer__box-desktop {
+            display: block;
+        }
+
+        .footer__box {
+            margin: 0 2em;
+            width: 30%;
+        }
+
+        .footer__box:first-child {
+                width: 50%;
+        }
+
+        .footer__box-title {
+            font-size: 2.4rem;
+        }
+
+        .footer__box-list {
+            list-style: none;
+        }
+
+        .footer__box-list-item {
+            margin-bottom: 1em;
+        }
+
+        .footer__box-list-item a {
+                color: white;
+                text-decoration: none;
+                transition: color .3s;
+        }
+
+        .footer__box-list-item a:hover {
+                    color: #1755e7;
+        }
+}
+
+@media(min-width: 992px) {
+    header {
+        height: 90rem;
+        background-position: center center;
+        background-image: url("./img/justice-2060093_1920.jpg");
+    }
+    .header-title {
+        font-size: 4rem;
+    }
+    .header-text {
+        font-size: 4rem;
+    }
+
+    /* Home */
+    .home-box i {
+        font-size: 5rem;
+    }
+
+    .home-box h3 {
+        font-size: 2.8rem;
+    }
+
+    .home-box p {
+        font-size: 2rem;
+    }
+
+    .services-title {
+        font-size: 5rem;
+    }
+
+    .home-passion {
+        background-image: url("./img/judge-3665164_1920.jpg");
+    }
+
+    .home-passion p {
+        font-size: 4.2rem;
+        /* font-weight: bold; */
+    }
+
+    .footer__box-title {
+        font-size: 2.5rem;
+      }
+}

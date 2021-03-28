@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./img/LogoMakr-9NShzt.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kancelaria Radcy Prawnego - Klapsa</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/2496dcef5a.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand px-4" href="#">
+                <img class="nav-logo" src="./img/LogoMakr-9NShzt.png" alt="Logo image"> KK Klapsa
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto navbar-links">
+                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link" href="#services">Usługi</a>
+                    <a class="nav-link" href="#aboutMe">O firmie</a>
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-shadow"></div>
+        <div
+            class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
+            <p class="header-title display-2">Kancelaria Radcy Prawnego</p>
+            <p class="header-text mb-5">Katarzyna Klapsa</p>
+            <a href="#services" class="btn btn-outline-light">Sprawdź</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="home-boxes">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4 home-box mb-5 mb-md-8">
+                        <i class="fas fa-balance-scale"></i>
+                        <h3 class="mt-1">Sprawiedliwość</h3>
+                        <p class="m-0">Każdy klient zasługuje na sprawiedliwy osąd</p>
+                    </div>
+                    <div class="col-md-4 home-box mb-5 mb-md-8">
+                        <i class="fas fa-globe-europe"></i>
+                        <h3 class="mt-1">Dostępność</h3>
+                        <p class="m-0">Prowadzenie usług w całej Polsce</p>
+                    </div>
+                    <div class="col-md-4 home-box">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3 class="mt-1">Profesjonalność usług</h3>
+                        <p class="m-0">Własna kancelaria prawna prosperującą na rynku od 1998 roku</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-4 service-pricing scroll-fix" id="services">
+            <div class="container">
+                <div class="py-5 text-center">
+                    <p class="display-3 services-title">Nasze usługi</p>
+                    <hr class="mt-4 mb-5 w-50 mx-auto line">
+                    <p class="additional-text"> Zajmuję się udzielaniem porad prawnych oraz fachowej pomocy prawnej.
+                        Podejmuję się również
+                        trudnych i nietypowych spraw. Oferuję sporządzenie pism procesowych, przygotowanie umów,
+                        opracowanie projektów umów, sporządzanie opinii prawnych, opiniowanie umów, a także windykację
+                        należności, separację małżeństw i podziały majątku</p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="accordion" id="acc">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-one">
+                                    <!-- <div class="hero-shadow"></div> -->
+                                    <p class="h-100 text-dark text-center p-3">Prawo cywilne</p>
+                                </div>
+                                <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseOne" class="collapse" data-parent="#acc">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Kancelaria zajmuje się zagadnieniami związanymi z szeroko rozumianym prawem
+                                            cywilnym, w szczególności:</p>
+                                        <ul>
+                                            <li>przygotowywanie umów i pism procesowych,</li>
+                                            <li>odpowiedzialność za szkodę kontraktową i deliktową,</li>
+                                            <li>podział majątku wspólnego,</li>
+                                            <li>i wiele innych ...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="accordion" id="acc">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-two">
+                                    <!-- <div class="hero-shadow"></div> -->
+                                    <p class="h-100 text-dark text-center p-3">Prawo handlowe</p>
+                                </div>
+                                <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                    aria-controls="collapseTwo">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#acc">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Oferujemy pomoc w prowadzeniu działalności gospodarczej oraz w wyborze jej
+                                            formy prowadzenia.</p>
+                                        <ul>
+                                            <li>rejestracja spółek,</li>
+                                            <li>przygotowanie umów i pism procesowych,</li>
+                                            <li>zakładanie i obsługa spółek,</li>
+                                            <li>podział, łączenie i likwidacja spółek,</li>
+                                            <li>doradztwo prawne</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="accordion" id="acc">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-one">
+                                    <!-- <div class="hero-shadow"></div> -->
+                                    <p class="h-100 text-dark text-center p-3">Prawo rodzinne</p>
+                                </div>
+                                <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+                                    aria-controls="collapseThree">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#acc">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima dolor
+                                            dignissimos autem iusto eius at!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="accordion" id="acc">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-one">
+                                    <!-- <div class="hero-shadow"></div> -->
+                                    <p class="h-100 text-dark text-center p-3">Prawo pracy</p>
+                                </div>
+                                <div data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                                    aria-controls="collapseFour">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseFour" class="collapse" data-parent="#acc">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Pomoc w zakresie:</p>
+                                        <ul>
+                                            <li>udzielanie porad, wyjaśnień, konsultacji,</li>
+                                            <li>przygotowywanie dokumentacji wymaganej przez przepisy prawa pracy,</li>
+                                            <li>ustalenie stosunku pracy,</li>
+                                            <li>reprezentacja pracodawcy,</li>
+                                            <li>i wiele innych ...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="accordion" id="acc">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-one">
+                                    <!-- <div class="hero-shadow"></div> -->
+                                    <p class="h-100 text-dark text-center p-3">Prawo administracyjne</p>
+                                </div>
+                                <div data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
+                                    aria-controls="collapseFive">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseFive" class="collapse" data-parent="#acc">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Sprawy z zakresu:</p>
+                                        <ul>
+                                            <li>udzielanie porad, wyjaśnień, konsultacji,</li>
+                                            <li>przygotowywanie dokumentacji wymaganej przez przepisy prawa pracy,</li>
+                                            <li>ustalenie stosunku pracy,</li>
+                                            <li>reprezentacja pracodawcy,</li>
+                                            <li>i wiele innych ...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="accordion" id="acc">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-one">
+                                    <!-- <div class="hero-shadow"></div> -->
+                                    <p class="h-100 text-dark text-center p-3">Prawo karne</p>
+                                </div>
+                                <div data-toggle="collapse" data-target="#collapseSix" aria-expanded="true"
+                                    aria-controls="collapseSix">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseSix" class="collapse" data-parent="#acc">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Dotyczy to:</p>
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet.</li>
+                                            <li>Lorem ipsum dolor sit amet.</li>
+                                            <li>Lorem ipsum dolor sit amet.</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="accordion" id="acc">
+                            <div class="card mb-4">
+                                <div class="service-hero-box box-one">
+                                    <!-- <div class="hero-shadow"></div> -->
+                                    <p class="h-100 text-dark text-center p-3">Prawo własności intelektualnej</p>
+                                </div>
+                                <div data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
+                                    aria-controls="collapseSeven">
+                                    <div class="card-header text-center py-4">Rozwiń opis <i
+                                            class="fas fa-angle-double-down ml-4"></i></div>
+                                </div>
+                                <div id="collapseSeven" class="collapse" data-parent="#acc">
+                                    <div class="card-body px-5 py-4">
+                                        <h3>Opis:</h3>
+                                        <p>Dotyczy to:</p>
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet.</li>
+                                            <li>Lorem ipsum dolor sit amet.</li>
+                                            <li>Lorem ipsum dolor sit amet.</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="home-passion mt-5">
+            <div class="hero-shadow"></div>
+            <div class="row m-0 h-100 align-items-center text-light">
+                <div class="col">
+                    <div class="container p-5">
+                        <p class="display-4">W obronie waszych praw</p>
+                        <a href="#contact" class="btn btn-outline-light contact-btn">Skontaktuj się!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-brand py-5 scroll-fix" id="aboutMe">
+            <p class="display-2 text-center pt-5 px-3 aboutme-title">O Firmie</p>
+            <hr class="mt-4 mb-5 w-50 mx-auto">
+            <div class="container py-5">
+                <div class="row m-0 align-items-center aboutme">
+                    <div class="col-md-6 aboutme-info">
+                        <h3>Katarzyna Klapsa</h3>
+                        <p>Nazywam się Katarzyna Klapsa i prowadzę własną kancelarię prawną prosperującą na rynku od
+                            1998 roku. Siedziba mojej działalności mieści się w Koninie, na terenie województwa
+                            wielkopolskiego.
+
+                            Zajmuję się udzielaniem porad prawnych oraz fachowej pomocy prawnej. Podejmuję się również
+                            trudnych i nietypowych spraw. Oferuję sporządzenie pism procesowych, przygotowanie umów,
+                            opracowanie projektów umów, sporządzanie opinii prawnych, opiniowanie umów, a także
+                            windykację należności, separację małżeństw i podziały majątku.
+
+                            W zakres moich obowiązków wchodzi zastępstwo procesowe przed sądami powszechnymi i organami
+                            administracji publicznej. Specjalizuję się również w sprawach rozwodowych, alimentacyjnych i
+                            spadkowych. Oferuję pomoc w sprawach związanych z odszkodowaniami. </p>
+                    </div>
+                    <div class="col-md-6 mt-4 mb-5 aboutme-image">
+                        <img src="./img/ciocia.jpg" alt="Katarzyna Klapsa image" class="img-fluid image">
+                    </div>
+                </div>
+            </div>
+            <div class="container pb-5">
+                <div class="jumbotron text-center">
+                    <p class="display-4">Gustav Radbruch</p>
+                    <hr class="my-4">
+                    <p>Państwo prawa jest jak chleb powszedni, jak woda do picia i powietrze do oddychania, a najlepsze
+                        w demokracji jest to, że tylko ona nadaje się do zabezpieczenia państwa prawa. </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact py-5 scroll-fix" id="contact">
+            <div class="container">
+                <div class="text-center py-5">
+                    <p class="display-3">Napisz do nas!</p>
+                    <hr class="mt-4 mb-5 w-50 mx-auto">
+                    <p class="additional-text">Nurtuje Cie jakieś pytanie? Masz wątpliwości?</p>
+                    <p class="additional-text">Napisz e-mail lub zadzwoń
+                        do nas.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 col-lg-4">
+                        <div class="border border-dark p-5 mb-4 rounded text-center">
+                            <h2>dane kontaktowe</h2>
+                            <h3 class="mt-4">adres</h3>
+                            <p>ul. Flisacka 17</p>
+                            <p>62-510 Konin</p>
+                            <h3 class="mt-4">telefon</h3>
+                            <p>607 935 735</p>
+                            <h3 class="mt-4">e-mail</h3>
+                            <p>klapsa@onet.com.pl</p>
+                            <div class="contact-logo mt-5 pt-4 mb-n3 border-dark border-top">
+                                <img class="nav-logo" src="./img/LogoMakr-9NShzt.png" alt="Logo image"> KK Klapsa
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                        <div class="border border-dark rounded p-5 text-center">
+                            <h2>formularz kontaktowy</h2>
+                            <form class="mt-5" id="contact-form" method="POST" action="send"
+                                enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group mb-4">
+                                            <label>Imię i nazwisko</label>
+                                            <input type="text" class="form-control" id="name" name='name'
+                                                placeholder="Twoje imie i nazwisko">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group mb-4">
+                                            <label>Adres mailowy</label>
+                                            <input type="email" class="form-control" id="email" name='email'
+                                                placeholder="example@example.com">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group mb-4">
+                                            <label>Tytuł e-maila</label>
+                                            <input type="text" class="form-control" id="subject" name="subject"
+                                                placeholder="Tytuł wiadomości">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label>Wpisz treść wiadomości</label>
+                                        <textarea class="form-control" rows="6" id="message" name="message"
+                                            placeholder="Treść wiadomości"></textarea>
+                                    </div>
+                                    <div class="col mt-3">
+                                        <button type="submit" class="btn btn-primary contact-btn-send">Wyślij</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-map pb-5">
+            <div class="container d-flex flex-column align-items-center">
+                <p class="display-4 py-4 m-5">Mapa dojazdu</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.776559374111!2d18.21012451579665!3d52.229277179760246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471b33f4ac545899%3A0xb16c3a73b9069349!2sKlapsa%20Katarzyna%20Kancelaria%20Radcy%20Prawnego!5e0!3m2!1spl!2spl!4v1616271668390!5m2!1spl!2spl"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__boxes">
+                <div class="footer__box">
+                    <h3 class="footer__box-title"><img class="nav-logo" src="./img/LogoMakr-9NShzt.png"
+                            alt="Logo image"> Klapsa Katarzyna</h3>
+                    <h3 class="footer__box-title">Kancelaria Radcy Prawnego</h3>
+                    <p>Strona promująca Kancelarię Radcy Prawnego Katarzyny Klapsy <br> w celu rozpowszechniania jej
+                        usług i
+                        do kontaktu z firmą.</p>
+                    <!-- <div class="footer__box-social">
+                        <a href="#" class="footer__box-link"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#" class="footer__box-link"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="footer__box-link"><i class="fab fa-instagram"></i></a>
+                    </div> -->
+                </div>
+
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">Strona</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">Home</a></li>
+                        <li class="footer__box-list-item"><a href="#services">Usługi</a></li>
+                        <li class="footer__box-list-item"><a href="#aboutMe">O Firmie</a></li>
+                        <li class="footer__box-list-item"><a href="#contact">Kontakt</a></li>
+                        <!-- <li class="footer__box-list-item"><a href="#contact">FAQ</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="logo__info mt-1 text-center">Created my free logo at <a href="https://logomakr.com/">LogoMakr.com</a>
+        </p>
+        <p class="footer__bottom-text"> &copy; <span class="footer__year"></span> Copyright Klapsa Katarzyna Kancelaria
+            Radcy Prawnego <br> by Wiktor Czajkowski</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
